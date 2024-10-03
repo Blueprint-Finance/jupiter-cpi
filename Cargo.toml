@@ -1,6 +1,6 @@
 [package]
 name = "jupiter-cpi"
-version = "6.0.0"
+version = "6.0.1"
 edition = "2021"
 description = "Anchor CPI client for the Jupiter program."
 authors = ["Siong Ong <siong@raccoons.dev>"]
@@ -19,5 +19,6 @@ cpi = ["no-entrypoint"]
 anchor-gen = "0.3.1"
 anchor-lang = "0.30.1"
 solana-program = "1.18.22"
-jupiter-amm-interface = "0.4.5"
+jupiter-amm-interface = { git = "https://github.com/Blueprint-Finance/jupiter-amm-interface", branch = "anchor/0.30.1" }
 rand = "0.8.5"
+solana-sdk = "1.18.22"
