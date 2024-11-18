@@ -18,7 +18,7 @@ cpi = ["no-entrypoint"]
 [dependencies]
 anchor-gen = "0.3.1"
 anchor-lang = "0.30.1"
-solana-program = "1.18.22"
+solana-program = "1.18"
 jupiter-amm-interface = { git = "https://github.com/Blueprint-Finance/jupiter-amm-interface", branch = "anchor/0.30.1" }
 rand = "0.8.5"
-solana-sdk = "1.18.22"
+solana-sdk = "1.18"
